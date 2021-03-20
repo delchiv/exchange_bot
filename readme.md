@@ -1,0 +1,3 @@
+Для запуска:
+export BOT_TOKEN=...
+docker-compose up

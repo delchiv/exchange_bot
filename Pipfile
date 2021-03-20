@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+python-telegram-bot = "*"
+python-dateutil = "*"
+
+[dev-packages]
+flake8 = "*"
+flake8-isort = "*"
+
+[requires]
+python_version = "3.8"

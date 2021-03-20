@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+    bot:
+        build: .
+        command: python /src/main.py ${BOT_TOKEN}
+        volumes:
+            - .:/src
